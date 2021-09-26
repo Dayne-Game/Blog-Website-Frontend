@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ecd96f" />
+    <title>Blog Website</title>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Blog Website</h1>
+      </div>
+    </header>
+    <nav>
+      <div class="container flex-between">
+        <div class="left-nav">
+          <a href="index.html">Home</a>
+          <a href="posts.html">Posts</a>
+        </div>
+        <div class="right-nav">
+          <a href="dashboard.html">Dashboard</a>
+          <a href="login.html">Logout</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Login Form Container -->
+    <div style="padding-top: 40px" class="container">
+      <a href="dashboard.html" class="back-button">Go Back</a>
+      <div class="post-form-container" style="margin-top: 30px">
+        <div class="form-header">
+          <h1 style="margin-bottom: 10px">Create / Edit a Post</h1>
+        </div>
+
+        <form>
+          <p>Title of Post</p>
+          <input type="text" class="form-input" placeholder="Sample Title" />
+          <p>Author of Post (Doesn't have to be your name)</p>
+          <input type="text" class="form-input" placeholder="John Doe" />
+          <textarea
+            name="body"
+            class="form-input"
+            rows="25"
+            placeholder="Random Sample Text"
+          ></textarea>
+          <button type="Submit" class="form-button">Login</button>
+        </form>
+        <p style="text-align: center">
+          Don't have an account? <a href="#" style="color: blue">Register</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

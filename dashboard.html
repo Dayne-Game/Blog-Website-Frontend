@@ -23,7 +23,7 @@
         </div>
         <div class="right-nav">
           <a href="dashboard.html" class="active">Dashboard</a>
-          <a href="#">Logout</a>
+          <a href="login.html">Logout</a>
         </div>
       </div>
     </nav>
@@ -31,27 +31,71 @@
       <div>
         <div class="dashboard-greeting-container">
           <h1>Welcome Dayne Game</h1>
-          <button class="create-post-button">Create Post</button>
+          <a href="editpost.html" class="create-post-button">Create Post</a>
         </div>
         <div class="dashboard-header-container">
           <div class="search-container">
-            <input type="text" class="search-input" placeholder="Search something..." />
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search something..."
+            />
             <button class="submit-button" type="submit">Search</button>
           </div>
-          <div class="create-button-container"></div>
         </div>
-        <table>
-          <tr>
-            <th>Hello</th>
-            <th>Hello</th>
-            <th>Hello</th>
-          </tr>
-          <tr>
-            <td>Hello</td>
-            <td>Hello</td>
-            <td>Hello</td>
-          </tr>
+        <table class="styled-table">
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Date</th>
+              <th></th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><a href="#" class="title-button">Ford vs. Ferrari</a></td>
+              <td>Dayne Game</td>
+              <td>24/05/2001</td>
+              <td><a href="editpost.html" class="edit-button">EDIT</a></td>
+              <td><a href="#" class="delete-button">DELETE</a></td>
+            </tr>
+            <tr>
+              <td><a href="#" class="title-button">Ford vs. Ferrari</a></td>
+              <td>Sample Author</td>
+              <td>Sample Date</td>
+              <td><a href="editpost.html" class="edit-button">EDIT</a></td>
+              <td><a href="#" class="delete-button">DELETE</a></td>
+            </tr>
+            <tr>
+              <td><a href="#" class="title-button">Ford vs. Ferrari</a></td>
+              <td>Sample Author</td>
+              <td>Sample Date</td>
+              <td><a href="editpost.html" class="edit-button">EDIT</a></td>
+              <td><a href="#" class="delete-button">DELETE</a></td>
+            </tr>
+            <tr>
+              <td><a href="#" class="title-button">Ford vs. Ferrari</a></td>
+              <td>Sample Author</td>
+              <td>Sample Date</td>
+              <td><a href="editpost.html" class="edit-button">EDIT</a></td>
+              <td><a href="#" class="delete-button">DELETE</a></td>
+            </tr>
+            <tr>
+              <td><a href="#" class="title-button">Ford vs. Ferrari</a></td>
+              <td>Sample Author</td>
+              <td>Sample Date</td>
+              <td><a href="editpost.html" class="edit-button">EDIT</a></td>
+              <td><a href="#" class="delete-button">DELETE</a></td>
+            </tr>
+          </tbody>
         </table>
+        <div class="pagination">
+          <a href="#" class="active">1</a>
+          <a href="#">2</a>
+          <a href="#">3</a>
+        </div>
       </div>
     </div>
   </body>

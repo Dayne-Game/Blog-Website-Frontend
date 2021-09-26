@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ecd96f" />
+    <title>Blog Website</title>
+    <!-- CSS STYLES -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Blog Website</h1>
+      </div>
+    </header>
+    <nav>
+      <div class="container flex-between">
+        <div class="left-nav">
+          <a href="index.html">Home</a>
+          <a href="posts.html">Posts</a>
+        </div>
+        <div class="right-nav">
+          <a href="login.html">Login</a>
+          <a href="register.html" class="active">Register</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Login Form Container -->
+    <div class="container">
+      <div class="form-container">
+        <div class="form-header">
+          <h1 style="margin-bottom: 10px">Register</h1>
+          <p style="margin-bottom: 40px">
+            Fill in the form below to create an account
+          </p>
+        </div>
+
+        <form>
+          <p>Full Name</p>
+          <input type="text" class="form-input" placeholder="John Doe" />
+          <p>Email Address</p>
+          <input
+            type="text"
+            class="form-input"
+            placeholder="example@example.com"
+          />
+          <p>Password</p>
+          <input type="password" class="form-input" placeholder="Password" />
+          <p>Re-enter Password</p>
+          <input
+            type="password"
+            class="form-input"
+            placeholder="Re-enter Password"
+          />
+          <button type="Submit" class="form-button">Register</button>
+        </form>
+        <p style="text-align: center">
+          Already have an account? <a href="#" style="color: blue">Login</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

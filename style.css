@@ -8,6 +8,7 @@
 
 a {
   text-decoration: none;
+  color: #333;
 }
 
 input:focus,
@@ -121,6 +122,134 @@ nav {
   margin-top: 10px;
   font-size: 12pt;
   margin-bottom: 10px;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  width: 800px;
+}
+
+.styled-table thead tr {
+  background-color: #ecd96f;
+  color: #333;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: thin solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.edit-button {
+  color: #89abe3ff;
+}
+
+.delete-button {
+  color: #cc0400;
+}
+
+.title-button:hover {
+  color: #ef9b0f;
+}
+
+.pagination {
+  display: inline-block;
+  background: #f4f4f4;
+  padding: 10px;
+}
+
+.pagination a {
+  color: #333;
+  float: left;
+  padding: 8px 16px;
+  border: thin solid #ddd;
+
+  background: #fff;
+}
+
+.pagination a.active {
+  background-color: #ecd96f;
+  color: #333 !important;
+  border: thin solid #ecd96f;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.form-container,
+.post-form-container {
+  background: #f4f4f4;
+  width: 500px;
+  margin: auto;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.form-header {
+  text-align: center;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: 12pt;
+  border: thin solid #ddd;
+  margin-bottom: 20px;
+}
+
+.form-button {
+  width: 100%;
+  border: thin solid #ddd;
+  background: #ddd;
+  color: #333;
+  padding: 10px;
+  font-size: 12pt;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.form-button:hover {
+  background: #ecd96f;
+  border: thin solid #ecd96f;
+}
+
+.back-button {
+  background: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 30px !important;
+}
+
+.back-button:hover {
+  background: #ddd;
+}
+
+.post-form-container {
+  width: 60% !important;
+}
+
+textarea {
+  resize: none;
 }
 
 /* Media Queries */
