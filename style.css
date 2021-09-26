@@ -253,6 +253,45 @@ textarea {
   resize: none;
 }
 
+.post {
+  max-width: 960px;
+  margin: 0px auto;
+  margin-top: 40px;
+  border-image: initial;
+  padding: 75px 100px;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 5px;
+  border: 1px solid rgb(224, 230, 237);
+}
+
+.title-box {
+  text-align: center;
+}
+
+.post-author {
+  margin-top: 10px;
+}
+
+.title-box > span {
+  display: block;
+  height: 1px;
+  width: 150px;
+  background: rgb(156, 157, 163);
+  margin: 50px auto;
+}
+
+.article-container {
+  margin: 0px 50px;
+}
+
+.article-container > p {
+  margin: 15px 0px;
+}
+
+.title-box > h1 {
+  color: rgb(62, 70, 91) !important;
+}
+
 /* Media Queries */
 @media (max-width: 576px) {
   .container {
